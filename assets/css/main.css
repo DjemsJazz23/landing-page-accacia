@@ -2906,6 +2906,7 @@ input, select, textarea {
 .parallelogram h1 span{
 	font-weight: 550;
 }
+
 	.accacia-header {
 		padding: 14em 0 19em 0 ;
 		/*background-color: #4686a0;*/
@@ -3271,7 +3272,11 @@ input, select, textarea {
 				}
 
 /* XLarge */
-
+@media screen and (min-width: 1600px) {
+	.accacia-header{
+		padding: 30em 0 19em 0;
+	}
+}
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
@@ -3279,6 +3284,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
+			
 
 		/* Header */
 
