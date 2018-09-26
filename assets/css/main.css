@@ -2132,12 +2132,7 @@ input, select, textarea {
 			display: none;
 		}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		height: 2.75em;
-	}
+	
 
 	textarea {
 		padding: 0.75em 1em;
@@ -2891,7 +2886,7 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	.accacia-header {
 		padding: 24em 0 24em 0 ;
 		/*background-color: #4686a0;*/
 		color: rgba(255, 255, 255, 0.75);
@@ -3104,6 +3099,38 @@ input, select, textarea {
 		max-width: 50%;
 	}
 
+	.accacia-form input,
+	.accacia-form select,
+	.accacia-form textarea{
+		background-color: #fff;
+		margin: 7px 0;
+	}
+	.accacia-form select,
+	.accacia-form input{
+		padding-top: .25rem;
+		padding-bottom: .25rem
+	}
+	.accacia-form .submit-container{
+		text-align: center;
+		margin-top: 7px;
+	}
+	.title-contact{
+		text-align: center;
+		font-weight: 550;
+	}
+    p{
+		font-size: 17.5px !important;
+	}
+	.submit-container .btn-send-msg{
+		background-color: #c40d1e;
+		color:#fff !important;
+		transition: 0.3s !important;
+	}
+	.submit-container .btn-send-msg:hover{
+		background-color: #fff;
+		color:#c40d1e !important;
+		
+	}
 /* Footer */
 
 	#footer {
