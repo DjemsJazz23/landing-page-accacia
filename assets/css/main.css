@@ -2892,15 +2892,15 @@ input, select, textarea {
     /* text-align: center; */
     justify-content: space-around;
 	right: 50px;
-	width: 300px;
-	height: 150px;
+	width: 270px;
+	height: 117px;
 	-webkit-transform: skew(-15deg);
 	   -moz-transform: skew(15deg);
 	     -o-transform: skew(15deg);
 	background: #c40d1fb9;
 }
 .parallelogram h1{
-	font-size: 34px;
+	font-size: 30px;
 	margin-bottom: 0 !important;
 }
 .parallelogram h1 span{
